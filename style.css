@@ -104,7 +104,7 @@ height: 93vh;
     /* background-size: cover; */
     margin: 13px 0px;
     background-color: #fbfbfd;
-    display: flex;
+/*     display: flex; */
     /* flex-wrap: wrap; */
 }
 #student-offer{
