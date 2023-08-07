@@ -1,0 +1,44 @@
+@media (max-width: 768px) {
+    .carousel-slide img {
+      width: 100%; /* Adjust for smaller screens */
+    }
+    
+    /* Other adjustments for smaller screens */
+  }
+@media (max-width: 960px) {
+   #hero{
+    background: url("src/bg-phone.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#watch-container{
+    /* height: 90%; */
+   display: flex;
+   flex-direction: column;
+   /* margin: 13px 0px; */
+   
+}
+#vision-container{
+        flex-direction: column;
+        height: 90%;
+        display: flex;
+        margin: 13px 0px;
+        
+    }
+    #arcade-container{
+        flex-direction: column;
+    height: 90%;
+   display: flex;
+   margin: 13px 0px;
+  
+  }
+  .left{
+    height: 100%;
+  }
+  .right{
+      height: 80vh;
+      /* background-size: auto; */
+    }
+}
+
